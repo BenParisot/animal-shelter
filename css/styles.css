@@ -1,16 +1,9 @@
-img {
-  width: 100%;
-}
-
-.column {
-  float: left;
-  width: 30%;
-  padding: 0px 15px 0px 15px;
-  border-bottom: 5px green dashed;
-}
-
 body {
   text-align: center;
+}
+
+img {
+  width: 100%;
 }
 
 h1 {
@@ -22,24 +15,31 @@ p {
   font-size: 18px;
 }
 
+em {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 0px 15px 0px 15px;
+  border-bottom: 5px green dashed;
+}
+
 .column p {
   font-size: 16px;
+}
+
+.column em {
+  color: blue;
+  font-style: italic;
 }
 
 .column h1 {
   text-transform: none;
   font-size: 24px;
   color: purple;
-}
-
-em {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.column em {
-  color: blue;
-  font-style: italic;
 }
 
 .column h1 em {
