@@ -6,7 +6,7 @@ img {
   float: left;
   width: 30%;
   padding: 0px 15px 0px 15px;
-
+  border-bottom: 5px green dashed;
 }
 
 body {
