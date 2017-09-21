@@ -21,9 +21,6 @@ em {
 }
 
 .column {
-  float: left;
-  width: 30%;
-  padding: 0px 15px 0px 15px;
   border-bottom: 5px green dashed;
 }
 
@@ -46,4 +43,24 @@ em {
   color: red;
   font-style: normal;
   text-transform: uppercase;
+}
+
+@media screen and (min-width:1200px) {
+  .column {
+    float: left;
+    width: 30%;
+    padding: 0px 15px 0px 15px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .column {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .column {
+    background-color: lightblue;
+  }
 }
