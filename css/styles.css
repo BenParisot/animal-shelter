@@ -1,3 +1,33 @@
 img {
-  width: 600px;
+  width: 100%;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 0px 15px 0px 15px;
+
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  text-transform: lowercase;
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.column p {
+  font-size: 16px;
+}
+
+.column h1 {
+  text-transform: none;
+  font-size: 24px;
+  color: purple;
 }
