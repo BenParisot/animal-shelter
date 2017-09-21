@@ -31,3 +31,19 @@ p {
   font-size: 24px;
   color: purple;
 }
+
+em {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.column em {
+  color: blue;
+  font-style: italic;
+}
+
+.column h1 em {
+  color: red;
+  font-style: normal;
+  text-transform: uppercase;
+}
